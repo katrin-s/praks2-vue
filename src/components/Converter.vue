@@ -2,7 +2,7 @@
   <div>
   <h1>Kaalu teisendamine</h1>
   <h4>Sisesta kaal kilogrammides</h4>
-  <input type="number" min="0" v-model="kg">
+  <input type="number" min="0" v-model="kg" oninput="this.value = this.value.slice(0,12)">
    <table>
        <tr>
            <td>Grammid</td>

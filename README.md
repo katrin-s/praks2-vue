@@ -1,4 +1,4 @@
-# praks1
+# praks2-vue
 
 ## Project setup
 ```
